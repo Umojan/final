@@ -1,0 +1,19 @@
+.accordion-container {
+    cursor: pointer;
+}
+
+.accordion-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-title, .accordion-button {
+    font-weight: 700;
+    font-size: 18px;
+    color: #11181C;
+}
+.accordion-text {
+    line-height: 24px;
+    color: #11181C;
+}

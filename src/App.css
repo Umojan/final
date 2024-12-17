@@ -1,0 +1,50 @@
+body {
+    padding: 80px;
+    background-color: #ffffff;
+}
+
+.main-final-exam-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-final-exam-block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 25px;
+}
+
+.crypto-list {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.crypto-item {
+    align-self: stretch;
+}
+
+.crypto-item-info {
+    padding-left: 25px;
+}
+.positive {
+    color: #09af09;
+}
+
+.negative {
+    color: #ff4040;
+}
+
+.crypto-item-text {
+    gap: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.zero {
+    color: rgb(78, 78, 78);
+}
+
